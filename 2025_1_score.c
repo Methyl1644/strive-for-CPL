@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <math.h>
-/*int main() {
+int main() {
     int a=0;
     scanf("%d",&a);
     printf("%d %c",a,a);
     return 0;
 
-}*/
+}
 
 #include <math.h>
-/*int main() {
+int main() {
     double a=5280.0*5280.0*5280.0;
     double g=sqrt(61.0);
     double b=236674.0+30303.0*g;
@@ -23,11 +23,11 @@
     printf("%.15f\n",4*y);
     return 0;
 
-}*/
+}
 #include <stdio.h>
 #include <math.h>
 
-/*int main() {
+int main() {
     // 第一个公式计算π
     double term1 = pow(5280, 3);                  // 5280的三次方
     double sqrt61 = sqrt(61);                     // 计算√61
@@ -47,15 +47,15 @@
     printf("%.15f\n", pi2);
 
     return 0;
-}*/
-/*int main() {
+}
+int main() {
     float P,L,T;
     scanf("%f %f %f",&P,&L,&T);
     float V=L*L*L;
     printf("%.4g\n",P*V*(1/8.314)/T);
     return 0;
-}*/
-/*int main() {
+}
+int main() {
     int xa,ya,xb,yb;
     scanf ("%d %d",&xa,&ya);
     scanf ("%d %d",&xb,&yb);
@@ -68,7 +68,7 @@
     double angle=90.0-r/pi;
     printf("%.4f %.4f",c,fmod(angle+360,360));
     return 0;
-}*//*
+}
 int main() {
     int p,q;
     scanf("%d %d",&p,&q);
@@ -81,7 +81,7 @@ int main() {
     printf("%f %f %f %f %f %f\n",m,n,g,a,b,x);
     printf ("%.3f",x);
     return 0;
-}*/
+}
 int main() {
     char name[20];
     int pre=0;
@@ -105,3 +105,4 @@ int main() {
 
 
 }
+
